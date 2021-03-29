@@ -1,5 +1,6 @@
 h1 {
     color: red;
+    font-size: 5em;
 }
 h2 {
     color: greenyellow;
@@ -9,4 +10,16 @@ body {
 }
 #absatz {
     color:purple
+}
+#ipsum {
+    font-size: 2em;
+}
+img {
+    width: 48vw;
+    height: auto;
+} 
+#clickp {
+        font-size: 2em;
+        background-color:royalblue; width: 10.5em; height: auto;
+        color:yellow;
 }
