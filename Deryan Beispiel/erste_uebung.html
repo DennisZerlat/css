@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Dieser befehl lädt die Style.css datei-->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bilder und css</title>
+
+  </head>
+  
+  <!--Es gibt zweo verschiedene arten um eine stelle zu marken und um in css dann wieder zu "laden" 
+  1.Eine ID vergeben (geht nur einmal für diese Stelle dann) über ID="idname"
+  oder
+  2.Über eine Klassen deklarierung (kannst du so oft du willst verwenden) dafür gibst du ein <span class="hier kannst du mehere Tags verweneden wie zb: gruen groß"( wichtig darf nur über leerzeichen getrennt sein kein Komma oder punkt usw) -->
+  <body>
+    <h1>Bilder</h1>
+    <h2 id="absatzc64" >Ein C64</h2>
+    <img src="pics/Download.jpg" alt="ein alter computer" />
+   <!--mit <span> kannst du einzelene passagen dir "rausgreifen" um sie anzupassen oder zu verändern-->
+    <h2 id="absatztext">Ein paar Absätze</h2>
+    <p>Lorem <span id="ipsum">dolor</span>  sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis <span class="gruen big" >montes,</span> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+
+    <!-- wenn du in der HTML was markieren möchtest verwendest du <span class="hier kommt die ID rein (du kannst hier auch mehere sachen aufeinmal markieren wie unten im beispiel)>hier kommt dann dein element </span>" -->
+    <p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel <span class="gruen big"> Curabitur ullamcorper</span> ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+    <h2 id="Roboter1">Ein Roboter</h2>
+    <img src="pics/robbi.jpg" alt="roboter" id="roboter" />
+</body>
+</html>

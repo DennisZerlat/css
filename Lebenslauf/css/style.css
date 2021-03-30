@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    margin-left:3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+}
+.einr {
+    margin-left:5em;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+img {
+    display: inline-block;
+    margin-left: 5em;
+    margin-bottom: 1em;
+    }
+
+span {
+    float: left;
+    min-width: 15em;
+}
+
+span:nth-child(2n) {
+    margin-left: 1.5em;
+}

@@ -1,0 +1,58 @@
+h1 {
+    color: rgb(255, 78, 47);
+    text-decoration: underline;
+    font-weight:bold;
+   
+}
+h2 {
+   color: blueviolet;
+   text-decoration: underline; 
+}   
+
+body {
+    background-color:aqua
+    
+}
+#absatzc64 { 
+    color:yellow;
+    background-color:red;
+    width: 3.7em;
+    text-decoration: underline;
+}
+#absatztext{ 
+
+    color:yellow;
+    background-color:red;
+    width: 7.5em;
+    text-decoration: underline;
+    
+    
+}
+#ipsum {
+    font-size: 3em;
+}
+/*du kannst auch direkt ein img in css beareiten, der nachteil ist nur wenn du mehrere hast wirds nicht mehr funktionieren, besser jedem img noch eine ID zuordnen  hier ist das erste bilö gemeint*/
+img{
+    width: 48em;
+    height: auto;
+}
+/* hier hab ich dem zweiten bild eine ID zugeordnet */
+#roboter{
+    
+    width: 48em;
+    height: auto;
+}
+/* das ist für die H2 überschrift die bearbeitung */
+#Roboter1{
+    background-color: pink ;
+    color: yellow;
+    width: 5.3em;
+    text-decoration: underline;
+}
+/* mit punkt. markierte zeilen sind die für die class */
+.gruen{
+    color: lawngreen;
+}
+.big{
+    font-size: 4em;
+}
