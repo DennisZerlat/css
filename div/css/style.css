@@ -1,0 +1,73 @@
+body {
+    float: left;
+    height: 95vh;
+    width: 95vw;
+}
+
+.head {
+    float: left;
+    height: 15%;
+    width: 100%;
+    background-color: brown;
+}
+
+.menu {
+    float: left;
+    height: 99%; /* damit die outline auch unten dargestellt wird */
+    width: 20%;
+    background-color: gray;
+    outline: solid;
+}
+
+.center {
+    float: left;
+    height: 75%;
+    width: 100%;
+    background-color: blue;
+}
+
+.footer{
+    float: left;
+    height: 10%;
+    width: 100%;
+    background-color: greenyellow;
+    outline: solid;
+}
+
+p {
+    text-align: center;
+    font-size: 3em;
+    text-decoration-style: solid;
+}
+
+.inhalt {
+    float:left;
+    height: 100%;
+    width: 70%;
+    background-color: cornflowerblue;
+    outline:solid;
+}
+
+.site {
+    float: left;
+    height: 100%;
+    width: 30%;
+    background-color: crimson;
+}
+
+.ma1 {
+    float: left;
+    height: 50%;
+    width: 100%;
+    background-color: darkcyan;
+    outline: solid;
+
+}
+
+.ma2 {
+    float: left;
+    height: 50%;
+    width: 100%;
+    background-color: darkcyan;
+    outline: solid
+}
