@@ -1,0 +1,111 @@
+* {
+    font-family:  monospace;
+    height: auto;
+}
+body {
+    background-image: url(../img/logo_raw.JPG);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.jumbotron {
+    background: none;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    /* background-image: url(../img/logo_raw.JPG);
+    background-position: center;
+    background-size: cover;
+    background-attachment: initial; */
+    margin-bottom: 0%;
+
+}
+.üb {
+    color: white !important;
+    font-size: 5em !important;
+}
+.üb2 {
+    color: white !important;
+    font-size: 2em !important;
+}
+.ubg1 {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    opacity: 100%;
+    border: 3px solid white !important;
+    border-radius: 2.5em;
+    display: inline-block;
+}
+.container {
+    width: 100vw;
+    height: auto;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+.banner {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.555);
+}
+.biete {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    color: white;
+}
+.boxt {
+    margin-top: 10px;
+    font-size: 1.5em;
+    border: 3px solid white !important;
+    border-radius: 5em;
+}
+.glyphicon-search {
+    font-size:  8em;
+    color: white;
+    background: rgba(0, 0, 0, 0.555);
+}
+.glyphicon-wrench {
+    font-size:  8em;
+    color: white;
+    background: rgba(0, 0, 0, 0.555);
+}
+.glyphicon-cog {
+    font-size:  8em;
+    color: white;
+    background: rgba(0, 0, 0, 0.555);
+}
+.startbox-left {
+    color: white;
+    background: rgba(0, 0, 0, 0.555);
+    }
+.startbox-mid {
+    color: white;
+    background: rgba(0, 0, 0, 0.555);
+}
+.startbox-right {
+    color: white;
+    background: rgba(0, 0, 0, 0.555);
+}
+.fixed-footer {
+    width: 100%;
+    margin-bottom: 0;
+    
+    
+}
+.fuß {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.footsatz {
+    color: white;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius:5em ;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
+}
