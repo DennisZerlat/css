@@ -3,6 +3,7 @@
     
 }
 
+
 body {
     color: white;
     background-image: url(../img/logo_raw.JPG);
@@ -13,8 +14,6 @@ body {
 
 .jumbotron {
     background: none;
-}
-.center {
 }
 .setups {
     float: left;
@@ -69,13 +68,11 @@ h1 {
       width: 200px;
   }
 .con-bew {
-    border: none;
     float: left;
     background-color: rgba(0, 0, 0, 0.452);
 }
 .con-kon {
     background-color: rgba(0, 0, 0, 0.452);
-    font-size: 1.25em;
 }
 .impressum {
     font-size: 2rem;
