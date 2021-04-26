@@ -10,9 +10,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-.nav-link {
-    font-size: 1.25em;
-}
+
 .jumbotron {
     background: none;
 }
@@ -27,11 +25,11 @@ body {
     text-align: center;    
 }
 .vorstellung-block {
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 2em;
 }
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     text-decoration: underline white;
     font-family: monospace;
     display: inline-block;
@@ -39,14 +37,32 @@ h1 {
 }
 .box {
     float: left;
-    background-color: rgba(0, 0, 0, 0.548);
-    font-size: 3em;
-    border: solid white;
-    
+    background-color: rgba(0, 0, 0, 0.377);
+    font-size: 2em;
 }
 .glyphicon {
     font-size: 5em;
 }
+
+.fs-2 {
+    font-size: 1em;
+}
+ /* unvisited link */
+ a:link {
+    color:white;
+  }
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  /* mouse over link */
+  a:hover {
+    color: lightgray;
+  }
+  /* selected link */
+  a:active {
+    color:darkgrey;
+  }
 
 /* FOOTER */
 
