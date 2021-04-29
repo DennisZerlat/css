@@ -63,9 +63,9 @@
         <p class="boxt">Bewertung abgeben</p>
         <form id="bewertung" name="bewertung">
           <label for="name">Name:</label>
-          <input type="text" id="nameinput" name="name"><br><br>
+          <input type="text" id="nameinput" name="name" placeholder="Name"><br><br>
           <label for="mail">Mail:</label>
-          <input type="text" id="mailinput" name="mail"><br><br>
+          <input type="email" id="mailinput" name="email" placeholder="@E-Mail"><br><br>
           <label for="kompetenz">Kompetenz</label>
           <select id="kompetenzinput">
             <option value="Note 1">Note 1</option>
@@ -94,7 +94,7 @@
             <option value="Note 6">Note 6</option>
           </select><br />
           <label for="review">Sonstiges:</label>
-          <textarea id="reviewinput" name="review" rows="5" cols="25"></textarea>
+          <textarea id="reviewinput" name="review" rows="5" cols="25" placeholder="Ihr Anliegen ..."></textarea>
           <br><br>
         </form>
         <button onclick="wegdamit()">Submit</button>
