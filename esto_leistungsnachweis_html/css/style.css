@@ -1,9 +1,6 @@
 * {
     font-family: monospace;
-    
 }
-
-
 body {
     color: white;
     background-image: url(../img/logo_raw.JPG);
@@ -18,11 +15,9 @@ body {
 .jumbotron {
     background: none;
 }
-
 .setups {
     float: left;
 }    
-
 .vorstellung {
     float: left;
     text-align: center;    
@@ -41,6 +36,9 @@ h1 {
     float: left;
     background-color: rgba(0, 0, 0, 0.377);
     font-size: 2em;
+}
+.center {
+    padding-top: 100px;
 }
 .glyphicon {
     font-size: 5em;
@@ -89,9 +87,11 @@ a:active {
 .namede {
     text-decoration: underline white;
 }
+@media (min-width: 50em){
+    .vorstellung-block {font-size: 1.5em;}
+}
 
 /* FOOTER */
-
 .footer #button{
 	width:55px;
 	height:55px;
