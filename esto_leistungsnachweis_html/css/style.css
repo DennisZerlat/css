@@ -72,6 +72,7 @@ a:active {
 .imggal:hover {
     border: 5px solid red;
     box-shadow: 5px 5px 10px red;
+    transform: scale(1.5);
 }
 .con-bew {
     float: left;
